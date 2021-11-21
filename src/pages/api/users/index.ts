@@ -9,5 +9,3 @@ export default (request: NextApiRequest, response: NextApiResponse) => {
 
   return response.json(users);
 }
-
-//Serverless
