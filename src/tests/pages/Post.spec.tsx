@@ -65,7 +65,7 @@ describe('Posts page', () => {
     getSessionMocked.mockResolvedValueOnce({
       activeSubscription: 'fake-active-subscription'
     } as any)
-
+ 
     const response = await getServerSideProps({
       params: {
         slug: 'my-new-post'
